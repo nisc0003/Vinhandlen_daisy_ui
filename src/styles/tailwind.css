@@ -1,5 +1,5 @@
-@import 'tailwindcss';
-
+@import "tailwindcss";
+@plugin "daisyui";
 @plugin '@tailwindcss/typography';
 @plugin '@tailwindcss/forms';
 @import "tailwindcss-animated";
@@ -19,9 +19,7 @@
   }
 }
 
-@layer components{
-
+@layer components {
 }
-@layer utilities{
-  
+@layer utilities {
 }
